@@ -1,0 +1,46 @@
+.run {
+    color: #000;
+    background: #f1f0eb;
+
+    img {
+        object-fit: contain;
+    }
+
+    p {
+        width: 21rem;
+        font-size: 0.9rem;
+    }
+
+    .inputField {
+        background: #fff;
+        border: 1px solid #859cb6aa;
+        flex-grow: 1;
+        margin-bottom: -0.2rem;
+        height: 1.8rem;
+
+        img {
+            object-fit: contain;
+        }
+
+        input {
+            border: none;
+
+            &:hover,
+            &:focus {
+                outline: none;
+            }
+        }
+
+        .dropDown {
+            text-indent: -999rem;
+            background-image: url("/spritesheet__drop_down.png");
+            width: 1.45rem;
+            height: 100%;
+            background-size: cover;
+
+            &:hover {
+                background-position: -1.3rem;
+            }
+        }
+    }
+}
